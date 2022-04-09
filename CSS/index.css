@@ -1,0 +1,16 @@
+#logo {
+    float: left;
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+}
+
+header {
+    font-family: 'Rubik', sans-serif;
+}
+
+.navbar-css {
+    background-color: #FF85B3;
+    padding: 0;
+    opacity: 0.7;
+}
