@@ -10,7 +10,27 @@ header {
 }
 
 .navbar-css {
-    background-color: #FF85B3;
+    background-color: #4700D8;
     padding: 0;
     opacity: 0.7;
+}
+
+.listItems > li > a {
+  color: white;
+  font-weight: bold;
+}
+
+.heading {
+    color: white;
+  font-weight: bold;
+}
+
+.listItems > li > a:hover{
+    color: #F900BF;
+    font-weight: bold;
+  }
+
+  .heading:hover {
+    color: #F900BF;
+    font-weight: bold;
 }
