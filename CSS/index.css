@@ -40,18 +40,19 @@ header {
 }
 
 .image-cover{
-    height: 500px;
+    height: 450px;
     width: 100%;
     margin: 0;
     padding: 0;
     background-color: #F7F7F7;
+    z-index: 10;
     
 }
 img{
   
-    height: 250px;
-    width: 250px;
-
+    height: 200px;
+    width: 200px;
+    float: right;
   
 }
 
@@ -88,3 +89,44 @@ img{
       font-size: 1.4em ;
       color: #6fbd8a;
   }
+
+  .card-style{
+    margin: 20px 44px;
+    position: fixed;
+    
+  }
+
+  div {
+    white-space: normal;
+  }
+
+  .profile{
+    width: 100%;
+  }
+
+.latest-blog{
+  margin: 20px;
+}
+
+.block{
+  height: 200px;
+  text-align: center;
+}
+
+.details{
+  text-align: center;
+  font-size: 20px;
+  color: #D82148;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  }
+
+.horizontal-line{
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 20px;
+  padding: 0;
+}
